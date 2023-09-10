@@ -56,6 +56,5 @@ function clone(obj) {
         }
         return copy;
     }
-    throw new Error('Unacle to clone. Object type is not supported!');
+    throw new Error('Unable to clone. Object type is not supported!');
 }
- 
